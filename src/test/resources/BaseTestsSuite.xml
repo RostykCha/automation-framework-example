@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BaseTestSuite" data-provider-thread-count="2">
+    <test name="BaseTestCases">
+        <classes>
+            <class name="tests.BaseFunctionalityTests"/>
+        </classes>
+    </test>
+</suite>

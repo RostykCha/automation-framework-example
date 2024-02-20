@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.2.2'
 	id 'io.spring.dependency-management' version '1.1.4'
+	id "io.qameta.allure" version "2.11.2"
 }
 
 group = 'automation-framework-example'
@@ -29,8 +30,16 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.boot:spring-boot-testcontainers'
 	testImplementation 'org.testcontainers:junit-jupiter'
+
+	testImplementation 'org.assertj:assertj-core:3.24.2'
+	implementation 'org.apache.logging.log4j:log4j:2.8.2'
+	implementation 'org.awaitility:awaitility:3.0.0'
+	implementation 'org.testng:testng:6.14.3'
 }
 
-tasks.named('test') {
-	useJUnitPlatform()
+test {
+	jvmArgs(['--enable-preview'])
+	useTestNG(){
+
+	}
 }
