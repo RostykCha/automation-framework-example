@@ -12,7 +12,7 @@ public class AutomationRetry implements IRetryAnalyzer {
      * it may help us distinguish product issues from environmental.
      */
 
-    private static final Integer MAX_RETRY_COUNT = 3;
+    private static final Integer MAX_RETRY_COUNT = 0;
 
     AtomicInteger count = new AtomicInteger(MAX_RETRY_COUNT);
 

@@ -12,8 +12,14 @@ public class BaseFunctionalityTests extends TestBase {
 
     @Test(retryAnalyzer = AutomationRetry.class)
     public void verifyGetAllBooks() {
-        List<BookDto> bookList = bookServiceClient.readBooks();
+        List<BookDto> bookList = bookServiceClient.readAllBooks();
         System.out.println(bookList);
+    }
+
+    @Test(retryAnalyzer = AutomationRetry.class)
+    public void verifyGetOneBook() {
+        BookDto oneBook = bookServiceClient.readABook(574).get();
+        System.out.println(oneBook);
     }
 
 
