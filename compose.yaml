@@ -1,1 +1,7 @@
+version: '3'
 services:
+  myapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: myapp:latest
