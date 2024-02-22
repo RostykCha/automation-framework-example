@@ -13,6 +13,7 @@ import org.testng.annotations.Listeners;
 @SpringBootTest(classes = FrameworkSpringConfiguration.class)
 @Listeners(AutomationListenerAdapter.class)
 public class TestBase extends AbstractTestNGSpringContextTests {
+    public static final Integer BOOK_ID_LENGTH = 3;
 
     @Autowired
     BookServiceClient bookServiceClient;
