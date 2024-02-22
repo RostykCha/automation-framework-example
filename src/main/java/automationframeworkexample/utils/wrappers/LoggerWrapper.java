@@ -4,9 +4,9 @@ import io.qameta.allure.Step;
 
 public class LoggerWrapper {
 
-    @Step("INFO: {message}")
+    @Step("{message}")
     public static void logInfo(String message) {
-        System.out.println("INFO: " + message);
+        System.out.println(message);
     }
 
     @Step("ERROR: {message}")

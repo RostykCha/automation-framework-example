@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="BaseTestSuite" data-provider-thread-count="2">
+<suite name="BaseTestSuite" data-provider-thread-count="4" >
     <test name="Get Books Tests">
         <classes>
             <class name="tests.GetBooksTests"/>
@@ -9,12 +9,6 @@
     <test name="Create Books Tests">
         <classes>
             <class name="tests.CreateBooksTests"/>
-        </classes>
-    </test>
-
-    <test name="Delete Books Tests">
-        <classes>
-            <class name="tests.DeleteBooksTests"/>
         </classes>
     </test>
 

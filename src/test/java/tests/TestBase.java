@@ -3,7 +3,6 @@ package tests;
 import automationframeworkexample.FrameworkSpringConfiguration;
 import automationframeworkexample.clients.BookServiceClient;
 import automationframeworkexample.utils.retry.AutomationListenerAdapter;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
@@ -20,7 +19,12 @@ public class TestBase extends AbstractTestNGSpringContextTests {
 
     @DataProvider(name = "testDataProvider", parallel = true)
     public Object[][] testDataProvider() {
-        return new Object[][]{{1}, {2}, {3}};
+        return new Object[][]{{574}, {524}, {525}, {529}, {534}};
+    }
+
+    @DataProvider(name = "testCreateDataProvider", parallel = true)
+    public Object[][] testCreateDataProvider() {
+        return new Object[][]{{"Hola"}, {"Bobby"}, {"Lords"}, {"Nana"}, {"Bonny"}};
     }
 
 
