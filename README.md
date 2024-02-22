@@ -1,16 +1,23 @@
 ## Project Tech Stack
 - Java 17 ![Java](https://img.shields.io/badge/Java-17-blue)
-- Gradle ![Gradle](https://img.shields.io/badge/Gradle-<VERSION>-blue)
-- Spring ![Spring](https://img.shields.io/badge/Spring-<VERSION>-green)
-- TestNG ![TestNG](https://img.shields.io/badge/TestNG-<VERSION>-orange)
+- Gradle ![Gradle](https://img.shields.io/badge/Gradle-blue)
+- Spring ![Spring](https://img.shields.io/badge/Spring-green)
+- TestNG ![TestNG](https://img.shields.io/badge/TestNG-orange)
 
 
 ## Project Key Features
+- RTM ![RTM](https://img.shields.io/badge/RTM-Traceability-blue)
+Requirement Traceability Matrix, Automation is a tool, so all AUTOMATION TESTS should be linked to TEST CASES, and they should be linked to USER STORIES
 - Parallelization ![Parallelization](https://img.shields.io/badge/Parallelization-Game_Changer-brightgreen)
+It dramatically reduces Test Run time
 - Data Provider ![Data Provider](https://img.shields.io/badge/Data_Provider-Game_Changer-brightgreen)
+Add the possibility to run the same code with different data sets (together with Parallelization IT IS A GAME CHANGER)
 - Docker ![Docker](https://img.shields.io/badge/Docker-Support-blue)
+No more "it works locally" issue -> simplifies CI/CD and remote run
 - Allure Report ![Allure Report](https://img.shields.io/badge/Allure_Report-Statistics-blue)
+Just take a look at all statistics that it provides
 - Client Structure ![Client Structure](https://img.shields.io/badge/Client_Structure-OOP-yellow)
+According to OOP we create test clients for all over Services
 
 ## Project Report
 ![Main Report Screen](report-exmple/mainscreen.png)
