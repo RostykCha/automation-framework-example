@@ -1,11 +1,16 @@
 ## Project Tech Stack
-Java 17
-Gradle
-Spring 
-TestNg
+- Java 17 ![Java](https://img.shields.io/badge/Java-17-blue)
+- Gradle ![Gradle](https://img.shields.io/badge/Gradle-<VERSION>-blue)
+- Spring ![Spring](https://img.shields.io/badge/Spring-<VERSION>-green)
+- TestNG ![TestNG](https://img.shields.io/badge/TestNG-<VERSION>-orange)
 
 
 ## Project Key Features
+- Parallelization ![Parallelization](https://img.shields.io/badge/Parallelization-Game_Changer-brightgreen)
+- Data Provider ![Data Provider](https://img.shields.io/badge/Data_Provider-Game_Changer-brightgreen)
+- Docker ![Docker](https://img.shields.io/badge/Docker-Support-blue)
+- Allure Report ![Allure Report](https://img.shields.io/badge/Allure_Report-Statistics-blue)
+- Client Structure ![Client Structure](https://img.shields.io/badge/Client_Structure-OOP-yellow)
 
 ## Project Report
 ![Main Report Screen](report-exmple/mainscreen.png)
