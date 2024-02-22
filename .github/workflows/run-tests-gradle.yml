@@ -1,9 +1,9 @@
-name: Run Immortal UI tests Gradle
+name: Run tests Gradle
 
 on:
   push:
     branches:
-      - test
+      - '*'
 
 jobs:
 
