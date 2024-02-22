@@ -1,3 +1,16 @@
+## Project Tech Stack
+Java 17
+Gradle
+Spring 
+TestNg
+
+
+## Project Key Features
+
+## Project Report
+![Main Report Screen](report-exmple/mainscreen.png)
+
+
 ## Project Conventions
 
 ### [Meaningful Names](https://ashishmd.medium.com/summary-of-clean-code-by-robert-c-martin-part-2-meaningful-names-5b5baaa5b3c6)
