@@ -9,6 +9,9 @@ TestNg
 
 ## Project Report
 ![Main Report Screen](report-exmple/mainscreen.png)
+![Statistics](report-exmple/statistics.png)
+![Suites](report-exmple/suites.png)
+![Timing](report-exmple/timing.png)
 
 
 ## Project Conventions
